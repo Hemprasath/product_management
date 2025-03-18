@@ -1,0 +1,59 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #1e1e1e, #3a3a3a); /* Dark, elegant background */
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #ff9800; /* Adds a subtle highlight */
+}
+
+/* Brand Name */
+.navbar-brand a {
+  font-size: 22px;
+  font-weight: bold;
+  background: linear-gradient(to left, #ff9800, #ff5722);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.navbar-brand a:hover {
+  opacity: 0.8;
+}
+
+/* Navbar Links */
+.navbar-links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-links a {
+  color: #f5f5f5;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-links a:hover {
+  color: #ffcc80;
+}
+
+/* Icon Buttons */
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 22px;
+  color: #f5f5f5;
+  transition: color 0.3s ease-in-out;
+}
+
+.icon-btn:hover {
+  color: #ffcc80;
+}

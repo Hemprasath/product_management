@@ -1,0 +1,101 @@
+/* Center the login container */
+.loginbackground {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #0f172a, #1e293b); /* Darker, more elegant blend */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Login Container */
+.login-container {
+  width: 100%;
+  max-width: 380px;
+  padding: 40px;
+  background: rgba(34, 34, 34, 0.9); /* Slight transparency for a sleek effect */
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+/* Login Heading */
+.login-box h2 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Input Group */
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  color: #ddd;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  background: #2d3748;
+  color: white;
+  font-size: 15px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-group input:focus {
+  border: 2px solid #4caf50;
+  outline: none;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+
+/* Login Button */
+.login-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #4caf50, #1b5e20);
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+  text-transform: uppercase;
+}
+
+.login-btn:hover {
+  background: linear-gradient(135deg, #388e3c, #0d4d20);
+  transform: translateY(-2px);
+}
+
+/* Forgot Password & Signup */
+.extra-links {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.extra-links a {
+  color: #4caf50;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.extra-links a:hover {
+  color: #66bb6a;
+  text-decoration: underline;
+}
