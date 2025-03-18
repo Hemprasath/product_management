@@ -16,7 +16,7 @@
 .homepage-container {
   background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
   min-height: 100vh;
-  display: flex;
+  padding: 20px;
   flex-direction: column;
   align-items: center;
   padding: 40px 20px;
@@ -38,7 +38,7 @@
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 70px;
+  gap: 80px;
   width: 90%;
   max-width: 1400px;
   justify-content: center;

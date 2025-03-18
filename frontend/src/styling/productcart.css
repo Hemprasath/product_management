@@ -16,6 +16,7 @@ body {
 /* ===================== */
 .product-card {
     width: 360px;
+    margin-left: 90px;
     border-radius: 16px;
     overflow: hidden;
     background: white;
